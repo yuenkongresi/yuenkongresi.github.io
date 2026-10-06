@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="懇請港鐵於平日早高峰由八鄉車廠加開錦上路站起載、往市區班次。聯署期至2026年12月5日。" />
+  <title>錦上路早高峰加班｜60日聯署</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c2834;
+      --muted: #5c6b7a;
+      --line: #e4ebf2;
+      --bg: #f4f7fb;
+      --navy: #1f4e79;
+      --ok: #1e7a46;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang HK", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 20px 16px 56px; }
+    .hero { background: var(--navy); color: #fff; border-radius: 18px; padding: 22px 20px 18px; }
+    h1 { font-size: 23px; line-height: 1.35; margin: 0; }
+    .hero p { margin: 8px 0 0; color: #d7e4f2; font-size: 15px; }
+    .badge { display: inline-block; font-size: 12px; background: rgba(255,255,255,.14); border-radius: 999px; padding: 4px 10px; margin: 0 8px 10px 0; }
+    .countdown {
+      display: flex; gap: 8px; margin-top: 14px;
+    }
+    .countdown div {
+      flex: 1; background: rgba(255,255,255,.12); border-radius: 12px; padding: 8px 6px; text-align: center;
+    }
+    .countdown b { display: block; font-size: 20px; line-height: 1.2; }
+    .countdown span { font-size: 12px; color: #d7e4f2; }
+    button, a.btn {
+      display: block;
+      width: 100%;
+      border: 0;
+      border-radius: 12px;
+      padding: 14px 12px;
+      font-size: 16px;
+      font-weight: 650;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: inherit;
+      margin-top: 10px;
+    }
+    #go { background: #fff; color: var(--navy); }
+    #go.done { background: #e7f6ee; color: var(--ok); }
+    .ghost { background: #e8f1fb; color: #163a5c; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-top: 12px; }
+    .card h2 { font-size: 16px; margin: 0 0 8px; color: var(--navy); }
+    .card p, .card li { font-size: 15px; }
+    ol { padding-left: 1.2em; margin: 8px 0; }
+    textarea {
+      width: 100%;
+      min-height: 280px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--ink);
+      background: #fbfcfe;
+    }
+    .fine { font-size: 13px; color: var(--muted); }
+    .warn { background: #fff7e8; border: 1px solid #f0ddb0; border-radius: 12px; padding: 12px; font-size: 14px; margin-top: 12px; }
+    .toast {
+      position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%) translateY(16px);
+      background: #163a5c; color: #fff; padding: 10px 14px; border-radius: 999px;
+      font-size: 14px; opacity: 0; pointer-events: none; transition: .2s ease; max-width: 90%; text-align: center;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="badge">錦田 · 八鄉 · 錦上路站</div>
+      <div class="badge">聯署期 60 日 · 至 2026年12月5日</div>
+      <h1>複製信，再開電郵寄去港鐵</h1>
+      <p>手機同 Instagram 開唔到超長電郵連結。先複製全文，再打開一封已填好收件人同標題的電郵，長撚貼上就得。</p>
+      <div class="countdown" aria-live="polite">
+        <div><b id="d">—</b><span>日</span></div>
+        <div><b id="h">—</b><span>小時</span></div>
+        <div><b id="m">—</b><span>分</span></div>
+      </div>
+      <button id="go" type="button">複製全文並開啟電郵</button>
+      <a class="btn ghost" id="gmail" href="#">改用 Gmail 網頁版寄出</a>
+      <a class="btn ghost" id="form" href="https://www.mtr.com.hk/ch/customer/main/contact_us.html" target="_blank" rel="noopener">港鐵官方網上意見表</a>
+    </header>
+
+    <div class="warn">如果喺 Instagram 入面撚完冇反應：撚右上角「…」→「在瀏覽器開啟」，再用 Safari 或 Chrome 開呢一頁。IG 內置瀏覽器多數封鎖電郵。</div>
+
+    <section class="card">
+      <h2>寄出步驟</h2>
+      <ol>
+        <li>撚上面個掣，信會複製好。</li>
+        <li>電郵 app 打開後，收件人係 mtr@mtr.com.hk，標題已填。</li>
+        <li>喺正文長撚，貼上。可先加上自己姓名同電話，再發送。</li>
+      </ol>
+      <p class="fine">副本建議手動加 tdenq@td.gov.hk（運輸署一般查詢，由 1823 處理）。如果電郵 app 冇自動打開，信已經喺剪貼簿，開 Mail 或 Gmail 貼上即可。港鐵官方聯絡頁而家主列熱線 2881 8888 同網上意見表，電郵只作居民自發去信。</p>
+    </section>
+
+    <section class="card">
+      <h2>信的內容（可改）</h2>
+      <textarea id="letter"></textarea>
+    </section>
+  </div>
+  <div class="toast" id="toast">已複製。電郵打開後長撚貼上</div>
+  <script>
+    const subject = "聯署：懇請考慮加開錦上路站早高峰起載班次";
+    const end = new Date("2026-12-05T23:59:59+08:00");
+    const letter = `敬啟者：
+
+我住元朗錦田／八鄉，每日經錦上路站返工返學。平日上午八時起，尤其八時二十分至八時四十五分，往市區方向經常上不到車，近出口車廂到站時已接近滿座，要等多一至兩班。
+
+錦上路站旁邊就是八鄉車廠。懇請考慮於平日上午七時四十五分至九時，由車廠加開以錦上路為起載站、往市區的班次。即使先試行四至六班，亦有幫助。班次如能開到紅磡就更好。
+
+錦田南公屋同上蓋住宅快將入伙，會早過北環綫通車，希望預早規劃。
+
+此為居民自發聯署，聯署期由2026年10月6日至12月5日。
+
+姓名：
+屋苑／鄉村：
+電話：
+
+謝謝考慮。`;
+
+    const box = document.getElementById("letter");
+    const toast = document.getElementById("toast");
+    box.value = letter;
+
+    function tick() {
+      const diff = end - new Date();
+      const d = document.getElementById("d");
+      const h = document.getElementById("h");
+      const m = document.getElementById("m");
+      if (diff <= 0) {
+        d.textContent = "0";
+        h.textContent = "0";
+        m.textContent = "0";
+        return;
+      }
+      d.textContent = Math.floor(diff / 86400000);
+      h.textContent = Math.floor((diff % 86400000) / 3600000);
+      m.textContent = Math.floor((diff % 3600000) / 60000);
+    }
+    tick();
+    setInterval(tick, 30000);
+
+    async function copyText() {
+      const text = box.value;
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch (e) {
+        box.focus();
+        box.select();
+        try { return document.execCommand("copy"); } catch (err) { return false; }
+      }
+    }
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2200);
+    }
+
+    document.getElementById("go").addEventListener("click", async () => {
+      const ok = await copyText();
+      const btn = document.getElementById("go");
+      btn.textContent = ok ? "已複製，請喺電郵長撚貼上" : "請手動長撚下面文字複製";
+      btn.classList.add("done");
+      showToast(ok ? "已複製。電郵打開後長撚貼上" : "複製未成功，請長撚下面文字");
+      setTimeout(() => {
+        window.location.href = "mailto:mtr@mtr.com.hk?subject=" + encodeURIComponent(subject);
+      }, 400);
+    });
+
+    document.getElementById("gmail").addEventListener("click", async (e) => {
+      e.preventDefault();
+      await copyText();
+      const url = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent("mtr@mtr.com.hk")
+        + "&su=" + encodeURIComponent(subject);
+      showToast("已複製。Gmail 打開後長撚貼上");
+      window.open(url, "_blank");
+    });
+  </script>
+</body>
+</html>
